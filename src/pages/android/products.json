@@ -1,0 +1,4 @@
+{
+  "products header title": "//android.widget.TextView[@text='Products']",
+  "first product":"(//android.widget.TextView[@content-desc='store item text'])[1]"
+}

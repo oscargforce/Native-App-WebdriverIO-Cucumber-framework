@@ -1,0 +1,27 @@
+{
+  "checkout header title": "~Checkout",
+  "full name input": "~Full Name* input field",
+  "adress line 1 input": "~Address Line 1* input field",
+  "adress line 2 input": "~Address Line 1 input field",
+  "city input": "~City* input field",
+  "state/region input": "~State/Region input field",
+  "zip code input": "~Zip Code* input field",
+  "country input": "~Country* input field",
+
+  "go to payment": "~To Payment button",
+
+  "info title": "~Enter a shipping address",
+  "full name input title": "~Full Name*",
+  "adress line 1 input title": "~Address Line 1*",
+  "adress line 2 input title": "~Address Line 2",
+  "city input title": "~City*",
+  "state/region input title": "~State/Region",
+  "zip code input title": "~Zip Code*",
+  "country input title": "~Country*",
+
+  "full name error message": "~Full Name*-error-message",
+  "adress line 1 error message": "~Address Line 1*-error-message",
+  "city error error message": "~City*-error-message",
+  "zip code error error message": "~Zip Code*-error-message",
+  "country error error message": "~Country*-error-message"
+}

@@ -1,0 +1,6 @@
+{
+  "username": "~Username input field",
+  "password": "~Password input field",
+  "login button": "~Login button",
+  "error message": "//android.view.ViewGroup[@content-desc='generic-error-message']/android.widget.TextView"
+}
