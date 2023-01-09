@@ -1,21 +1,12 @@
-# How to start Appoium
+# Cucumber - WebdriverIo - Appium - Functional programing framework.
 
-## Step by step
+## How it works.
+- The framework is utilizing [cucumber world](https://github.com/cucumber/cucumber-js/blob/main/docs/support_files/world.md)
+- See src/step-definitions/set-up/** which is the heart of the framework.
+- Before the test execeution, global.variables.ts are extracting all page objects in src/pages/** into one big object called pageElementMappings which holds all locators.  
+world.ts are then linking the pageElementMappings to each scenario through [cucumber world](https://github.com/cucumber/cucumber-js/blob/main/docs/support_files/world.md)
+- The framework is also taking advantage of regex to reduce the amount of dublicate step definitions.
 
-- Open terminal
-- Export env variables with command: source ~/bash_profile
-- Open appium server (Only if you want to inspect elements before test): appium --base-path /wd/hub
-
-OBS!
-If you want to open the bash_profile the command is: vim ~/.bash_profile
-
-// ID for samsumg ce0517153d7add2303
-// Command to get id "adb devices"
-
-
-// Get UdId for simulator on xcode, command: xcrup simctl list
-// 6FB23318-68B3-4840-B0A7-E1CBE914836B
-ACD20F8E-FEEE-4FD2-9A3D-8803BF56BE66
-
-## Install drivers
-appium driver list --installed
+## Advantages with this framework.
+- Super easy to create test cases and you can reuse the same step definition for almost anything thanks to regex and pageElementMappings.
+- Low maintainance.
